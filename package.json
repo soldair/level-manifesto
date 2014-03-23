@@ -1,0 +1,22 @@
+{
+  "name": "level-manifesto",
+  "description": "seamlessly stream a local and remote dataset cache sections of a remote data set in the local level",
+  "version": "0.0.0",
+  "repository": {
+    "url": "git://github.com/soldair/level-manifesto.git"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "tape test/*.js"
+  },
+  "author": "Ryan Day",
+  "dependencies": {
+    "through": "^2.3.4"
+  },
+  "devDependencies": {
+    "level-sublevel": "^5.2.0",
+    "memdown": "^0.7.0",
+    "tape": "^2.11.0",
+    "levelup": "^0.18.2"
+  }
+}
